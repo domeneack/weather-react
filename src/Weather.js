@@ -1,6 +1,7 @@
 import React from "react";
 import "./Weather.css";
 
+
 export default function Weather() {
   let weatherData = {
     city: "New York",
@@ -53,13 +54,8 @@ export default function Weather() {
                 <a href="/">°C</a> | <a href="/">°F</a>
               </span>
             </div>
+         
           </div>
-        </div>
-        <div className="col-6">
-          <ul>
-            <li>Humidity: {weatherData.humidity}%</li>
-            <li>Wind: {weatherData.wind} km/h</li>
-          </ul>
         </div>
       </div>
     </div>
